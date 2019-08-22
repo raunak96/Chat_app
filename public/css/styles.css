@@ -142,13 +142,20 @@ button:disabled {
     padding: 24px;
 }
 @media (max-width:900px){
+    .compose {
+        display: flex;
+        flex-shrink: 0;
+        margin: 0;
+        padding: 10px;
+        padding-top:4px; 
+    }
     #frm {
         display: flex;
         flex-direction: column;
         flex-shrink: 0;
     }
     .buttons{
-        margin-top: 5px;
+        margin-top: 6px;
     }
 }
 
