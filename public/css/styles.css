@@ -159,8 +159,13 @@ button:disabled {
     .buttons{
         margin-top: 6px;
     }
+    
 }
-
+@media (max-height:550px){
+    .chat__messages{
+        flex-grow: 0;
+    }
+}
 
 .compose form {
     display: flex;
