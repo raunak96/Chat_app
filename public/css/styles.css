@@ -141,6 +141,17 @@ button:disabled {
     margin-top: 16px;
     padding: 24px;
 }
+@media (max-width:900px){
+    #frm {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+    .buttons{
+        margin-top: 5px;
+    }
+}
+
 
 .compose form {
     display: flex;
