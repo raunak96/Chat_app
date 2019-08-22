@@ -140,6 +140,8 @@ button:disabled {
     flex-shrink: 0;
     margin-top: 16px;
     padding: 24px;
+    position: relative;
+    bottom:0;
 }
 @media (max-width:900px){
     .compose {
